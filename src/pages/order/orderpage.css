@@ -1,0 +1,25 @@
+ .tabs1 .tab1-link.active {
+    font-weight: 700;
+    border-bottom: 3px solid #fecd08;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+  }
+   .tabs1 .tab1-link:hover{
+      border-top: none !important;
+      border-left: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+  
+  }
+  .tab1 {
+    color: black;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+  }
+  .track{
+    background-color: #fecd08 !important;
+  } 

@@ -1,0 +1,46 @@
+.jss2298 {
+  color: #a5a5a5;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  /* line-height: 1.2em; */
+  font-family: Lato, sans-serif;
+  margin-top: 20px;
+  
+}
+.jss2299 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.2em;
+  font-family: "Lato", sans-serif;
+ color: rgb(51, 51, 51)
+}
+.imageBody{
+  /* margin-top: 22px !important; */
+  /* margin-bottom: '22px' !important; */
+  box-shadow: 0 10px 22px 0 #dddddd !important;
+  padding: 20px 6px !important;
+  
+
+
+}
+.button-Gruop{
+  background-color: #efefef !important;
+  padding: 2px;
+  align-items: center;
+  border-radius: 999px;
+}
+.btn-1{
+  padding: 2px;
+}
+.modal-body{
+  padding: 15px;
+}
+.card-text-p{
+  font-size: 14px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-style: bolder  !important;
+    color: #000000
+}

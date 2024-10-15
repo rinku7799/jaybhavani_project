@@ -1,0 +1,17 @@
+
+
+.relative-position {
+    position: relative;
+    width: 100%;
+}
+
+.relative-position input {
+    padding-right: 50px; /* Adjust this value to your needs */
+}
+
+.relative-position button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}

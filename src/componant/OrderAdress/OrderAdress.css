@@ -1,0 +1,230 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.Order-headerAddress {
+  background-color: rgb(254, 205, 8);
+  border-radius: 20px 20px 0 0 !important;
+  font-size: 20px;
+}
+
+.orderAddBody {
+  background-color: #ffffff;
+}
+
+.Orderbtn1 {
+  color: #093455;
+  padding: 4px 1px 4px 1px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+}
+.Orderbtn1:active::before {
+  background-color: rgb(254, 205, 8);
+}
+.Modalmain {
+  margin: 0 !important;
+}
+.Orderbtnicon1 {
+  font-size: 20px;
+  color: #093455;
+}
+
+.Orderbtn2 {
+  color: #093455;
+  padding: 4px 1px 4px 1px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+}
+.modal-content {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 20px;
+}
+
+.card-attantion {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  background: #f1f1f1;
+  margin-top: 4px;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.P-Attantion {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  margin-bottom: 0;
+}
+
+.Order-add-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  color: #a5a5a5;
+  border-radius: 0 0 20px 20px !important;
+}
+
+.Addcard1 {
+  color: #6a6c6e;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  column-gap: 119px !important;
+  padding-bottom: 1px;
+}
+
+.radiobtn {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.nav-underline {
+  column-gap: 70px;
+  margin-bottom: 5px;
+}
+.AddressNav {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .modal-dialog {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    min-height: 300px !important;
+  }
+  .nav-underline {
+    column-gap: inherit;
+  }
+  .modal-content {
+    height: 100vh;
+    border-radius: 0% !important;
+  }
+  .modal-body {
+    max-height: 100vh !important;
+    max-width: 100%;
+  }
+  .card-attantion {
+    max-width: 100%;
+  }
+  .Modalmain {
+    margin: 0 !important;
+  }
+  .Modal {
+    margin: 0;
+  }
+  .Order-header {
+    border-radius: 0px !important;
+  }
+  .modal-header {
+    border-radius: 0% !important;
+  }
+  .modal-footer {
+    border-radius: 0% !important;
+  }
+  .Order-add-foote {
+    border-radius: 0% !important;
+  }
+}
+@media (max-width: 450px) {
+  .modal-dialog {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    min-height: 300px !important;
+  }
+  .nav-underline {
+    column-gap: inherit;
+  }
+  .modal-content {
+    height: 100%;
+    border-radius: 0% !important;
+  }
+  .modal-body {
+    max-height: 100% !important;
+  }
+  .card-attantion {
+    max-width: 100%;
+  }
+  .Modalmain {
+    margin: 0 !important;
+  }
+  .Modal {
+    margin: 0;
+  }
+  .Order-header {
+    border-radius: 0px !important;
+  }
+  .modal-header {
+    border-radius: 0% !important;
+  }
+  .modal-footer {
+    border-radius: 0% !important;
+  }
+  .Order-add-foote {
+    border-radius: 0% !important;
+  }
+}
+
+.gap-3 {
+  padding: 7px;
+}
+.modal-title {
+  margin-left: 24px;
+}
+
+.ModalMainbody {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 500px;
+  min-width: 495px;
+}
+
+.btn-close {
+  background: transparent var(--bs-btn-close-bg) center / 1em auto no-repeat !important;
+}
+@media (max-width:490px) {
+  .ModalMainbody{
+    max-height: 400px;
+    min-width: 380px;
+  }
+}
+@media (max-width:365px) {
+  .ModalMainbody{
+    max-height: 370px;
+    min-width: 350px;
+  }
+}
+
+.tooltip-inner {
+  background-color: #ffc107 !important;
+  opacity: 1 !important;
+}
+.tooltip.bs-tooltip-right .tooltip-arrow::before {
+  border-right-color: #ffc107  !important;
+}
+.tooltip.bs-tooltip-left .tooltip-arrow::before {
+  border-left-color: #ffc107  !important;
+}
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+  border-bottom-color: #ffc107  !important;
+}
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+  border-top-color: #ffc107  !important;
+}

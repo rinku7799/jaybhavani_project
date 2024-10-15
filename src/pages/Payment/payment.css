@@ -1,0 +1,218 @@
+.jss6504 {
+  display: flex;
+  padding: 16px 0px;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  height: 698px;
+}
+
+.first-sec {
+  background-color: #efefef;
+}
+
+.tip-text {
+  padding: 5px 0px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  font-family: Lato, sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+.cardinfo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.totaldiv {
+  padding: 18px 16px;
+  background-color: #efefef;
+  border-radius: 8px;
+}
+
+.mainDiv {
+  /* height: 100vh; */
+  padding: 70px 70px 20px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.totaldiv {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
+  color: rgb(51, 51, 51);
+}
+
+.cardinfo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 17px;
+  font-style: normal;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+.require-text {
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  align-self: flex-end;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 30px;
+  color: rgb(51, 51, 51);
+
+}
+
+.card-div {
+  display: flex;
+  flex-direction: row;
+  ;
+}
+
+.visa-img {
+  width: 50px;
+  height: 25px;
+  padding: 5px;
+
+}
+
+.visalogo-img {
+  width: 40px;
+  height: 27px;
+  padding: 5px;
+
+}
+.jss3515 {
+  color: #333333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 1px;
+  white-space: nowrap;
+  font-family: Lato, sans-serif;
+  
+}
+
+Button {
+  background: none !important;
+
+}
+
+.carddetaildiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formdiv {
+  padding: 20px 70px;
+}
+
+.order-sec {
+  padding: 20px 70px;
+}
+
+.card-text1 {
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.2;
+  font-family: Lato, sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+.card-text2 {
+  font-size: 32px;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.2;
+  font-family: Lato, sans-serif;
+  color: rgb(254, 205, 8);
+}
+
+.card-text3 {
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.2;
+  font-family: Lato, sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+.card-text4 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
+  color: rgb(51, 51, 51);
+  padding: 24px 16px;
+}
+.card-text5{
+  padding: 4px 16px;
+  background: #efefef;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+    color: rgb(51, 51, 51);
+}
+.card-text6{
+padding: 15px 0px 8px 0px;
+color: #333333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+}
+.row > *{
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+
+@media (max-width :900px) {
+  .coldiv3{
+    display: none; 
+  }
+  .coldiv4{
+    display: none;
+  }
+  .coldiv5{
+   width: 100% !important;
+   padding:10px -10px !important ;
+  }
+
+}
+
+@media (max-width :1200px) {
+  
+  .coldiv4{
+    display: none;
+  }
+}
+.jss3583{
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: Lato, sans-serif;
+  color: rgb(51, 51, 51);
+  text-align: center;
+}

@@ -1,0 +1,63 @@
+
+/* @import '../node_modules/@fontsource/lato/400.css'; */
+
+body{
+font-family:Lato, sans-serif;
+}
+.shopbag{
+    /* font-size:35px; */
+    height: 42px;
+    width: 45px;
+    color: rgb(9, 52, 85);
+    padding: 6px;
+}
+.caricon{
+    height: 42px;
+    width: 43px;
+    color: rgb(9, 52, 85);
+    padding: 6px;
+}
+.ordermodal{
+/* width: 100%; */
+border-radius: 30%;
+}
+.Order-header{
+    background-color: rgb(254, 205, 8);
+    border-radius: 20px 20px 0 0;
+}
+.orderBody{
+    background-color: #FFFFFF !important;
+    padding: 40px 35px  0px 35px !important;
+    border-radius: 20px  !important;
+    color: #000 !important;
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    padding-top: 40px;
+    font-family: Lato, sans-serif;
+}
+/* .formAdd{
+    text-align: left !important;
+} */
+/* .active{
+    background-color: rgb(254, 205, 8);
+} */
+.modal-content{
+    /* border: 2px solid green; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;  
+    border-radius: 20px;
+}
+.Shopbagdiv{
+    border-radius: 8px;
+    
+}
+.text-takeout{
+    font-family: Lato, sans-serif !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+    color: rgb(51, 51, 51) !important;
+}
+.cardiv{
+    border-radius: 8px;
+}

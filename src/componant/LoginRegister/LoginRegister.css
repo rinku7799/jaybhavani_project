@@ -1,0 +1,103 @@
+body {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+.nav-tabs .nav-link.active{
+    border-radius: 999px !important;
+    /* / padding-inline: 66px !important; / */
+    color: white !important;
+    background: #fecd08 !important;
+   
+}
+.LoginReg-tabs{
+  border-radius: 999px;
+  max-width: fit-content;
+  align-items: center;
+  /* / border: 1px solid red; / */
+  margin-left: 60px;
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: #efefef;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nav-tabs .nav-link{
+  width: 165px !important;
+  color: black;
+  font-weight: 400;
+}
+
+
+.nav-tabs .nav-link:hover{
+ border-radius: 999px;
+  
+}
+@media (max-Width:430px)  {
+  .nav-tabs .nav-link{
+      width: 120px !important;
+      text-align: center;
+  }
+  .nav-tabs .nav-link.active{
+      text-align: center !important;
+   
+  }
+  .LoginReg-tabs{
+      margin-left: 46px;
+  }
+}
+@media (max-Width:900px){
+  .LoginReg-tab{
+      margin-left: 189px !important;
+  }
+  }
+
+@media (max-Width:700px){
+  .LoginReg-tab{
+      margin-left: 122px !important;
+  }
+  } 
+.modal-title{
+  flex: 1;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  font-weight: normal;
+}
+@media (max-width:600px) {
+  .nav-tabs .nav-link{
+      font-size: 10px;
+  }
+  .nav-tabs .nav-link.active{
+      font-size: 10px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .LoginReg-tabs {
+    margin-left: 230px;
+  }
+}
+@media (min-width: 700px) and (max-width: 768px) {
+  .LoginReg-tabs {
+    margin-left: 180px;
+  }
+}
+@media (min-width: 600px) and (max-width: 700px) {
+  .LoginReg-tabs {
+    margin-left: 140px;
+  }
+}
+.show:hover{
+  color: black !important;
+  
+}
+/* .formControl {
+  background-color: #e8f0fe !important;
+} */
+.form-control [type=checkbox] {
+background-color: #fecd08;
+}
+.FooterLR{
+  cursor: pointer ;
+}

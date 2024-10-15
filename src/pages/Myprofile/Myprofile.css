@@ -1,0 +1,145 @@
+.btndiv{
+    /* margin: 0px 30px; */
+    padding: 20px 0;
+    border-bottom: 0.5px dashed #dddddd;
+}
+.btnuper{
+    border-radius: 20px !important;
+    background: none;
+    border: none;
+    
+}  
+.jss527 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.lables{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.sublable{
+    color: #a5a5a5;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Lato, sans-serif;
+    line-height: 1.5;
+}
+.carddiv1{
+    border-bottom: 0.5px dashed #dddddd;
+    padding-bottom: 30px;
+}
+.carddiv2{
+    border-bottom: 0.5px dashed #dddddd;
+    padding: 30px 0px;
+}
+.jss583 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+    /* line-height: 1.5; */
+    color: rgb(51, 51, 51);
+    padding-top: 0%;
+}
+.jss584 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Lato, sans-serif;
+    /* line-height: 1.5; */
+    color: rgb(51, 51, 51);
+}
+.Plus1{
+background-color: #fecd08;
+border-radius: 999px;
+padding: 8px;
+width: 40px;
+height: 40px;
+}
+/* .col-8{
+    border-right :2px solid red
+} */
+.offcanvas-upersec{
+padding: 30px 30px 20px 30px;
+}
+.offcanvas-upersec-title{
+    margin: 20px 0px 0px 0px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.offcanvas-upersec-body{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.offcanvas-footer{
+    flex: 1;
+    display: flex;
+    position: relative;
+    transition: all 0.3s;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.savebtn{
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: 0;
+    position: absolute;
+    transition: all 0.3s;
+    background-color: #fecd08;
+    height: 100%;
+}
+.savebtn-text{
+    flex: 1;
+    display: flex;
+    position: relative;
+    transition: all 0.3s;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center; 
+}
+.save-text1{
+    flex: 1;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    font-family: Lato, sans-serif;
+    line-height: 1.5;
+    text-transform: none;
+    color: rgb(9, 52, 85);
+}
+.profile-text{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+    color: rgb(51, 51, 51);
+    padding: 25px 0px 18px 0px;
+}
+.cardinfo-text1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    font-style: normal;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+    color: rgb(51, 51, 51);
+  }
